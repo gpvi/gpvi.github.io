@@ -1,37 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
-  <entry>
-    <title></title>
-    <url>/2022/09/14/%E4%BD%9C%E4%B8%9A%E4%BA%8C/</url>
-    <content><![CDATA[<p>[toc]</p>
-<table>
-<thead>
-<tr>
-<th>这个作业属于哪个课程</th>
-<th><a href="https://bbs.csdn.net/forums/fzusdn">https://bbs.csdn.net/forums/fzusdn</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>这个作业要求在哪里</td>
-<td>&lt;<a href="https://bbs.csdn.net/topics/608141033">https://bbs.csdn.net/topics/608141033</a></td>
-</tr>
-<tr>
-<td>这个作业的目标</td>
-<td>1.学习git&#x2F;github对项目的基础管理操作 2.创建自己的个人网站，并在网站添加自身相关内容</td>
-</tr>
-<tr>
-<td>学号</td>
-<td>032002632</td>
-</tr>
-</tbody></table>
-<span id="more"></span>
-<h1 id="任务一"><a href="#任务一" class="headerlink" title="任务一"></a>任务一</h1><h2 id="步骤1：fork项目"><a href="#步骤1：fork项目" class="headerlink" title="步骤1：fork项目"></a>步骤1：fork项目</h2><h3 id="完成过程"><a href="#完成过程" class="headerlink" title="完成过程"></a>完成过程</h3><p>通过网页版github，fork目标项目。截图如下：</p>
-<h2 id="步骤2：克隆项目到本地的电脑"><a href="#步骤2：克隆项目到本地的电脑" class="headerlink" title="步骤2：克隆项目到本地的电脑"></a>步骤2：克隆项目到本地的电脑</h2><h3 id="完成过程-1"><a href="#完成过程-1" class="headerlink" title="完成过程"></a>完成过程</h3><p>方法1：在本地文件夹在git bash 中使用 ‘’’ git clone URL’’’(我用了这个，我觉得这个比较简便)<br>方法2：使用Vscode拉取远程仓库<br>方法3：在线下载项目压缩包，在本地解压<br>截图如下： </p>
-<h3 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h3><p>1)在本地使用git时(确保本地已安装，并已配置好git)</p>
-<p>2)熟悉git的基础命令，init,clone,add,commit(一定要加’-m”注释”‘),pull,push…  ,以及创建项目提交项目的基本流程(关键在branch的拉去合并和冲突的解决)</p>
-<p>3)熟悉ssh的安装和理念(公钥与私钥)，添加ssh到github  </p>
-<h2 id="步骤三：暂存修改并提交"><a href="#步骤三：暂存修改并提交" class="headerlink" title="步骤三：暂存修改并提交"></a>步骤三：暂存修改并提交</h2><h3 id="完成过程-2"><a href="#完成过程-2" class="headerlink" title="完成过程"></a>完成过程</h3><p>方法1：在git bash 中使用 git commit -m “comment”<br>方法2：通过VScode 提交(我用了这个)<br>截图如下：</p>
-<h3 id="tips-1"><a href="#tips-1" class="headerlink" title="tips"></a>tips</h3><p>1)提交过程，对提交命令不太熟悉，去学习了下push命令。<br>2）push命令：git push &lt;远程主机&gt;</p>
-<h2 id="步骤四：将修改后的内容推送到-Fork-的项目中"><a href="#步骤四：将修改后的内容推送到-Fork-的项目中" class="headerlink" title="步骤四：将修改后的内容推送到 Fork 的项目中"></a>步骤四：将修改后的内容推送到 Fork 的项目中</h2><h2 id="步骤五：在-Fork-的项目中创建合并请求"><a href="#步骤五：在-Fork-的项目中创建合并请求" class="headerlink" title="步骤五：在 Fork 的项目中创建合并请求"></a>步骤五：在 Fork 的项目中创建合并请求</h2>]]></content>
-  </entry>
 </search>
