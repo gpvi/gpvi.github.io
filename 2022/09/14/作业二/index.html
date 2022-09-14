@@ -19,22 +19,22 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;  More info: Writing">
+  <meta name="description" content="[toc]    这个作业属于哪个课程 https:&#x2F;&#x2F;bbs.csdn.net&#x2F;forums&#x2F;fzusdn    这个作业要求在哪里 &lt;https:&#x2F;&#x2F;bbs.csdn.net&#x2F;topics&#x2F;608141033   这个作业的目标 1.学习git&#x2F;github对项目的基础管理操作 2.创建自己的个人网站，并在网站添加自身相关内容   学号 032002632">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello">
-<meta property="og:url" content="http://example.com/2022/09/13/hello-world/index.html">
+<meta property="og:title" content="Niuzhuoqun&#39;s BLOG">
+<meta property="og:url" content="http://example.com/2022/09/14/%E4%BD%9C%E4%B8%9A%E4%BA%8C/index.html">
 <meta property="og:site_name" content="Niuzhuoqun&#39;s BLOG">
-<meta property="og:description" content="Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;  More info: Writing">
+<meta property="og:description" content="[toc]    这个作业属于哪个课程 https:&#x2F;&#x2F;bbs.csdn.net&#x2F;forums&#x2F;fzusdn    这个作业要求在哪里 &lt;https:&#x2F;&#x2F;bbs.csdn.net&#x2F;topics&#x2F;608141033   这个作业的目标 1.学习git&#x2F;github对项目的基础管理操作 2.创建自己的个人网站，并在网站添加自身相关内容   学号 032002632">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-09-13T06:21:05.680Z">
-<meta property="article:modified_time" content="2022-09-13T15:16:34.672Z">
-<meta property="article:author" content="牛卓群">
+<meta property="article:published_time" content="2022-09-14T02:33:02.269Z">
+<meta property="article:modified_time" content="2022-09-14T03:06:21.385Z">
+<meta property="article:author" content="NZQ">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2022/09/13/hello-world/">
+<link rel="canonical" href="http://example.com/2022/09/14/%E4%BD%9C%E4%B8%9A%E4%BA%8C/">
 
 
 <script id="page-configurations">
@@ -47,7 +47,7 @@
   };
 </script>
 
-  <title>Hello | Niuzhuoqun's BLOG</title>
+  <title> | Niuzhuoqun's BLOG</title>
   
 
 
@@ -107,6 +107,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -141,11 +142,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -169,11 +197,11 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/09/13/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/09/14/%E4%BD%9C%E4%B8%9A%E4%BA%8C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://cdn.pixabay.com/photo/2016/11/09/23/16/music-1813100_1280.png">
-      <meta itemprop="name" content="牛卓群">
+      <meta itemprop="name" content="NZQ">
       <meta itemprop="description" content="人生的意义在于成长。">
     </span>
 
@@ -182,7 +210,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello
+          
         </h1>
 
         <div class="post-meta">
@@ -193,7 +221,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-09-13 14:21:05 / 修改时间：23:16:34" itemprop="dateCreated datePublished" datetime="2022-09-13T14:21:05+08:00">2022-09-13</time>
+              <time title="创建时间：2022-09-14 10:33:02 / 修改时间：11:06:21" itemprop="dateCreated datePublished" datetime="2022-09-14T10:33:02+08:00">2022-09-14</time>
             </span>
 
           
@@ -207,20 +235,36 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+        <p>[toc]</p>
+<table>
+<thead>
+<tr>
+<th>这个作业属于哪个课程</th>
+<th><a target="_blank" rel="noopener" href="https://bbs.csdn.net/forums/fzusdn">https://bbs.csdn.net/forums/fzusdn</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>这个作业要求在哪里</td>
+<td>&lt;<a target="_blank" rel="noopener" href="https://bbs.csdn.net/topics/608141033">https://bbs.csdn.net/topics/608141033</a></td>
+</tr>
+<tr>
+<td>这个作业的目标</td>
+<td>1.学习git&#x2F;github对项目的基础管理操作 2.创建自己的个人网站，并在网站添加自身相关内容</td>
+</tr>
+<tr>
+<td>学号</td>
+<td>032002632</td>
+</tr>
+</tbody></table>
 <span id="more"></span>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+<h1 id="任务一"><a href="#任务一" class="headerlink" title="任务一"></a>任务一</h1><h2 id="步骤1：fork项目"><a href="#步骤1：fork项目" class="headerlink" title="步骤1：fork项目"></a>步骤1：fork项目</h2><h3 id="完成过程"><a href="#完成过程" class="headerlink" title="完成过程"></a>完成过程</h3><p>通过网页版github，fork目标项目。截图如下：</p>
+<h2 id="步骤2：克隆项目到本地的电脑"><a href="#步骤2：克隆项目到本地的电脑" class="headerlink" title="步骤2：克隆项目到本地的电脑"></a>步骤2：克隆项目到本地的电脑</h2><h3 id="完成过程-1"><a href="#完成过程-1" class="headerlink" title="完成过程"></a>完成过程</h3><p>方法1：在本地文件夹在git bash 中使用 ‘’’ git clone URL’’’(我用了这个，我觉得这个比较简便)<br>方法2：使用Vscode拉取远程仓库<br>方法3：在线下载项目压缩包，在本地解压<br>截图如下： </p>
+<h3 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h3><p>1)在本地使用git时(确保本地已安装，并已配置好git)</p>
+<p>2)熟悉git的基础命令，init,clone,add,commit(一定要加’-m”注释”‘),pull,push…  ,以及创建项目提交项目的基本流程(关键在branch的拉去合并和冲突的解决)</p>
+<p>3)熟悉ssh的安装和理念(公钥与私钥)，添加ssh到github  </p>
+<h2 id="步骤三：暂存修改并提交"><a href="#步骤三：暂存修改并提交" class="headerlink" title="步骤三：暂存修改并提交"></a>步骤三：暂存修改并提交</h2><h3 id="完成过程-2"><a href="#完成过程-2" class="headerlink" title="完成过程"></a>完成过程</h3><p>方法1：在git bash 中使用 git commit -m “comment”<br>方法2：通过VScode 提交(我用了这个)<br>截图如下：</p>
+<h3 id="tips-1"><a href="#tips-1" class="headerlink" title="tips"></a>tips</h3><p>1)提交过程，对提交命令不太熟悉，去学习了下push命令。<br>2）push命令：git push &lt;远程主机&gt;</p>
+<h2 id="步骤四：将修改后的内容推送到-Fork-的项目中"><a href="#步骤四：将修改后的内容推送到-Fork-的项目中" class="headerlink" title="步骤四：将修改后的内容推送到 Fork 的项目中"></a>步骤四：将修改后的内容推送到 Fork 的项目中</h2><h2 id="步骤五：在-Fork-的项目中创建合并请求"><a href="#步骤五：在-Fork-的项目中创建合并请求" class="headerlink" title="步骤五：在 Fork 的项目中创建合并请求"></a>步骤五：在 Fork 的项目中创建合并请求</h2>
     </div>
 
     
@@ -309,15 +353,15 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%BB%E5%8A%A1%E4%B8%80"><span class="nav-number">1.</span> <span class="nav-text">任务一</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A5%E9%AA%A41%EF%BC%9Afork%E9%A1%B9%E7%9B%AE"><span class="nav-number">1.1.</span> <span class="nav-text">步骤1：fork项目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%8C%E6%88%90%E8%BF%87%E7%A8%8B"><span class="nav-number">1.1.1.</span> <span class="nav-text">完成过程</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A5%E9%AA%A42%EF%BC%9A%E5%85%8B%E9%9A%86%E9%A1%B9%E7%9B%AE%E5%88%B0%E6%9C%AC%E5%9C%B0%E7%9A%84%E7%94%B5%E8%84%91"><span class="nav-number">1.2.</span> <span class="nav-text">步骤2：克隆项目到本地的电脑</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%8C%E6%88%90%E8%BF%87%E7%A8%8B-1"><span class="nav-number">1.2.1.</span> <span class="nav-text">完成过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#tips"><span class="nav-number">1.2.2.</span> <span class="nav-text">tips</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A5%E9%AA%A4%E4%B8%89%EF%BC%9A%E6%9A%82%E5%AD%98%E4%BF%AE%E6%94%B9%E5%B9%B6%E6%8F%90%E4%BA%A4"><span class="nav-number">1.3.</span> <span class="nav-text">步骤三：暂存修改并提交</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%8C%E6%88%90%E8%BF%87%E7%A8%8B-2"><span class="nav-number">1.3.1.</span> <span class="nav-text">完成过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#tips-1"><span class="nav-number">1.3.2.</span> <span class="nav-text">tips</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A5%E9%AA%A4%E5%9B%9B%EF%BC%9A%E5%B0%86%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84%E5%86%85%E5%AE%B9%E6%8E%A8%E9%80%81%E5%88%B0-Fork-%E7%9A%84%E9%A1%B9%E7%9B%AE%E4%B8%AD"><span class="nav-number">1.4.</span> <span class="nav-text">步骤四：将修改后的内容推送到 Fork 的项目中</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A5%E9%AA%A4%E4%BA%94%EF%BC%9A%E5%9C%A8-Fork-%E7%9A%84%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%90%88%E5%B9%B6%E8%AF%B7%E6%B1%82"><span class="nav-number">1.5.</span> <span class="nav-text">步骤五：在 Fork 的项目中创建合并请求</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="牛卓群"
+    <img class="site-author-image" itemprop="image" alt="NZQ"
       src="https://cdn.pixabay.com/photo/2016/11/09/23/16/music-1813100_1280.png">
-  <p class="site-author-name" itemprop="name">牛卓群</p>
+  <p class="site-author-name" itemprop="name">NZQ</p>
   <div class="site-description" itemprop="description">人生的意义在于成长。</div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -362,7 +406,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">牛卓群</span>
+  <span class="author" itemprop="copyrightHolder">NZQ</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
@@ -404,6 +448,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

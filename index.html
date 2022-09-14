@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="人生的意义在于成长。">
@@ -29,7 +29,7 @@
 <meta property="og:site_name" content="Niuzhuoqun&#39;s BLOG">
 <meta property="og:description" content="人生的意义在于成长。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="牛卓群">
+<meta property="article:author" content="NZQ">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://example.com/">
@@ -105,6 +105,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -139,11 +140,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -166,11 +194,11 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/09/13/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/09/14/%E4%BD%9C%E4%B8%9A%E4%BA%8C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://cdn.pixabay.com/photo/2016/11/09/23/16/music-1813100_1280.png">
-      <meta itemprop="name" content="牛卓群">
+      <meta itemprop="name" content="NZQ">
       <meta itemprop="description" content="人生的意义在于成长。">
     </span>
 
@@ -180,7 +208,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/09/13/hello-world/" class="post-title-link" itemprop="url">Hello</a>
+            <a href="/2022/09/14/%E4%BD%9C%E4%B8%9A%E4%BA%8C/" class="post-title-link" itemprop="url">未命名</a>
         </h2>
 
         <div class="post-meta">
@@ -191,7 +219,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-09-13 14:21:05 / 修改时间：23:16:34" itemprop="dateCreated datePublished" datetime="2022-09-13T14:21:05+08:00">2022-09-13</time>
+              <time title="创建时间：2022-09-14 10:33:02 / 修改时间：11:06:21" itemprop="dateCreated datePublished" datetime="2022-09-14T10:33:02+08:00">2022-09-14</time>
             </span>
 
           
@@ -205,12 +233,30 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+          <p>[toc]</p>
+<table>
+<thead>
+<tr>
+<th>这个作业属于哪个课程</th>
+<th><a target="_blank" rel="noopener" href="https://bbs.csdn.net/forums/fzusdn">https://bbs.csdn.net/forums/fzusdn</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>这个作业要求在哪里</td>
+<td>&lt;<a target="_blank" rel="noopener" href="https://bbs.csdn.net/topics/608141033">https://bbs.csdn.net/topics/608141033</a></td>
+</tr>
+<tr>
+<td>这个作业的目标</td>
+<td>1.学习git&#x2F;github对项目的基础管理操作 2.创建自己的个人网站，并在网站添加自身相关内容</td>
+</tr>
+<tr>
+<td>学号</td>
+<td>032002632</td>
+</tr>
+</tbody></table>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2022/09/13/hello-world/#more" rel="contents">
+              <a class="btn" href="/2022/09/14/%E4%BD%9C%E4%B8%9A%E4%BA%8C/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -288,9 +334,9 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="牛卓群"
+    <img class="site-author-image" itemprop="image" alt="NZQ"
       src="https://cdn.pixabay.com/photo/2016/11/09/23/16/music-1813100_1280.png">
-  <p class="site-author-name" itemprop="name">牛卓群</p>
+  <p class="site-author-name" itemprop="name">NZQ</p>
   <div class="site-description" itemprop="description">人生的意义在于成长。</div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -335,7 +381,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">牛卓群</span>
+  <span class="author" itemprop="copyrightHolder">NZQ</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
@@ -377,6 +423,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
