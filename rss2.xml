@@ -9,28 +9,102 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>人生的意义在于成长。</description>
-    <pubDate>Wed, 14 Sep 2022 04:23:14 GMT</pubDate>
+    <pubDate>Wed, 14 Sep 2022 14:26:33 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title></title>
-      <link>http://example.com/2022/09/14/test/</link>
-      <guid>http://example.com/2022/09/14/test/</guid>
-      <pubDate>Wed, 14 Sep 2022 04:22:53 GMT</pubDate>
+      <title>Blog 简介</title>
+      <link>http://example.com/2022/09/14/home/</link>
+      <guid>http://example.com/2022/09/14/home/</guid>
+      <pubDate>Wed, 14 Sep 2022 13:41:21 GMT</pubDate>
       
         
         
-      <description>&lt;h1 id=&quot;努力&quot;&gt;&lt;a href=&quot;#努力&quot; class=&quot;headerlink&quot; title=&quot;努力&quot;&gt;&lt;/a&gt;努力&lt;/h1&gt;</description>
+      <description>&lt;h1 id=&quot;这个小-站的简介&quot;&gt;&lt;a href=&quot;#这个小-站的简介&quot; class=&quot;headerlink&quot; title=&quot;这个小 站的简介&quot;&gt;&lt;/a&gt;这个&lt;strong&gt;小 站&lt;/strong&gt;的简介&lt;/h1&gt;&lt;p&gt;主要通过hexo和GitHub建立，初步建立用时1天半，d</description>
         
       
       
       
-      <content:encoded><![CDATA[<h1 id="努力"><a href="#努力" class="headerlink" title="努力"></a>努力</h1>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="这个小-站的简介"><a href="#这个小-站的简介" class="headerlink" title="这个小 站的简介"></a>这个<strong>小 站</strong>的简介</h1><p>主要通过hexo和GitHub建立，初步建立用时1天半，de了一天bug,对一些错误刚开始完全理解不了,通过看其他人的debug笔记开始对错误的产生，和hexo对网站的部署有了初步的一些了解。debug详见{ % 建站笔记.md “建站笔记”% }</p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/S-W/">S/W</category>
+      
+      
+      
+      <comments>http://example.com/2022/09/14/home/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>个人介绍</title>
+      <link>http://example.com/2022/09/14/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/</link>
+      <guid>http://example.com/2022/09/14/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/</guid>
+      <pubDate>Wed, 14 Sep 2022 13:41:21 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;牛卓群&quot;&gt;&lt;a href=&quot;#牛卓群&quot; class=&quot;headerlink&quot; title=&quot;牛卓群&quot;&gt;&lt;/a&gt;牛卓群&lt;/h1&gt;</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="牛卓群"><a href="#牛卓群" class="headerlink" title="牛卓群"></a>牛卓群</h1>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/S-W/">S/W</category>
+      
+      
+      <category domain="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/">个人介绍</category>
+      
+      
+      <comments>http://example.com/2022/09/14/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hexo 学习</title>
+      <link>http://example.com/2022/09/14/hexo_study/</link>
+      <guid>http://example.com/2022/09/14/hexo_study/</guid>
+      <pubDate>Wed, 14 Sep 2022 13:41:21 GMT</pubDate>
       
       
       
       
-      <comments>http://example.com/2022/09/14/test/#disqus_thread</comments>
+      <category domain="http://example.com/categories/S-W/">S/W</category>
+      
+      
+      <category domain="http://example.com/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      
+      <comments>http://example.com/2022/09/14/hexo_study/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>建站笔记</title>
+      <link>http://example.com/2022/09/14/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</link>
+      <guid>http://example.com/2022/09/14/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</guid>
+      <pubDate>Wed, 14 Sep 2022 13:41:21 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;&lt;em&gt;持续更新&lt;/em&gt;&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p><em>持续更新</em></p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/Study-Work/">Study/Work</category>
+      
+      
+      <category domain="http://example.com/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      
+      <comments>http://example.com/2022/09/14/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/#disqus_thread</comments>
       
     </item>
     
