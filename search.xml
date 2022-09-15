@@ -4,7 +4,7 @@
     <title>Blog 简介</title>
     <url>/2022/09/14/home/</url>
     <content><![CDATA[<h1 id="这个小-站的简介"><a href="#这个小-站的简介" class="headerlink" title="这个小 站的简介"></a>这个<strong>小 站</strong>的简介</h1><p>主要通过hexo和GitHub建立，初步建立用时1天半，de了一天bug,对一些错误刚开始完全理解不了,通过看其他人的debug笔记开始对错误的产生，和hexo对网站的部署有了初步的一些了解。debug笔记如下。</p>
-<span id="more"></span>]]></content>
+<h1 id="持续更新ing"><a href="#持续更新ing" class="headerlink" title="持续更新ing"></a><em>持续更新ing</em></h1><span id="more"></span>]]></content>
       <categories>
         <category>S/W</category>
       </categories>

@@ -9,7 +9,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>人生的意义在于成长。</description>
-    <pubDate>Thu, 15 Sep 2022 04:44:54 GMT</pubDate>
+    <pubDate>Thu, 15 Sep 2022 04:45:40 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -18,11 +18,12 @@
       <guid>http://example.com/2022/09/14/home/</guid>
       <pubDate>Wed, 14 Sep 2022 13:41:21 GMT</pubDate>
       
-      <description>&lt;h1 id=&quot;这个小-站的简介&quot;&gt;&lt;a href=&quot;#这个小-站的简介&quot; class=&quot;headerlink&quot; title=&quot;这个小 站的简介&quot;&gt;&lt;/a&gt;这个&lt;strong&gt;小 站&lt;/strong&gt;的简介&lt;/h1&gt;&lt;p&gt;主要通过hexo和GitHub建立，初步建立用时1天半，de了一天bug,对一些错误刚开始完全理解不了,通过看其他人的debug笔记开始对错误的产生，和hexo对网站的部署有了初步的一些了解。debug笔记如下。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&quot;这个小-站的简介&quot;&gt;&lt;a href=&quot;#这个小-站的简介&quot; class=&quot;headerlink&quot; title=&quot;这个小 站的简介&quot;&gt;&lt;/a&gt;这个&lt;strong&gt;小 站&lt;/strong&gt;的简介&lt;/h1&gt;&lt;p&gt;主要通过hexo和GitHub建立，初步建立用时1天半，de了一天bug,对一些错误刚开始完全理解不了,通过看其他人的debug笔记开始对错误的产生，和hexo对网站的部署有了初步的一些了解。debug笔记如下。&lt;/p&gt;
+&lt;h1 id=&quot;持续更新ing&quot;&gt;&lt;a href=&quot;#持续更新ing&quot; class=&quot;headerlink&quot; title=&quot;持续更新ing&quot;&gt;&lt;/a&gt;&lt;em&gt;持续更新ing&lt;/em&gt;&lt;/h1&gt;</description>
       
       
       
-      <content:encoded><![CDATA[<h1 id="这个小-站的简介"><a href="#这个小-站的简介" class="headerlink" title="这个小 站的简介"></a>这个<strong>小 站</strong>的简介</h1><p>主要通过hexo和GitHub建立，初步建立用时1天半，de了一天bug,对一些错误刚开始完全理解不了,通过看其他人的debug笔记开始对错误的产生，和hexo对网站的部署有了初步的一些了解。debug笔记如下。</p><span id="more"></span>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="这个小-站的简介"><a href="#这个小-站的简介" class="headerlink" title="这个小 站的简介"></a>这个<strong>小 站</strong>的简介</h1><p>主要通过hexo和GitHub建立，初步建立用时1天半，de了一天bug,对一些错误刚开始完全理解不了,通过看其他人的debug笔记开始对错误的产生，和hexo对网站的部署有了初步的一些了解。debug笔记如下。</p><h1 id="持续更新ing"><a href="#持续更新ing" class="headerlink" title="持续更新ing"></a><em>持续更新ing</em></h1><span id="more"></span>]]></content:encoded>
       
       
       <category domain="http://example.com/categories/S-W/">S/W</category>
