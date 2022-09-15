@@ -109,5 +109,24 @@
       
     </item>
     
+    <item>
+      <title>个人简历</title>
+      <link>http://example.com/2022/09/14/%E7%AE%80%E5%8E%86/</link>
+      <guid>http://example.com/2022/09/14/%E7%AE%80%E5%8E%86/</guid>
+      <pubDate>Wed, 14 Sep 2022 13:41:21 GMT</pubDate>
+      
+      
+      
+      
+      <category domain="http://example.com/categories/Study-Work/">Study/Work</category>
+      
+      
+      <category domain="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/">个人介绍</category>
+      
+      
+      <comments>http://example.com/2022/09/14/%E7%AE%80%E5%8E%86/#disqus_thread</comments>
+      
+    </item>
+    
   </channel>
 </rss>
