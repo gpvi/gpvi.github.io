@@ -3,7 +3,11 @@
   <entry>
     <title>Blog 简介</title>
     <url>/2022/09/14/home/</url>
-    <content><![CDATA[<h1 id="这个小-站的简介"><a href="#这个小-站的简介" class="headerlink" title="这个小 站的简介"></a>这个<strong>小 站</strong>的简介</h1><p>主要通过hexo和GitHub建立，初步建立用时1天半，de了一天bug,对一些错误刚开始完全理解不了,通过看其他人的debug笔记开始对错误的产生，和hexo对网站的部署有了初步的一些了解。debug详见</p>
+    <content><![CDATA[<h1 id="这个小-站的简介"><a href="#这个小-站的简介" class="headerlink" title="这个小 站的简介"></a>这个<strong>小 站</strong>的简介</h1><p>主要通过hexo和GitHub建立，初步建立用时1天半，de了一天bug,对一些错误刚开始完全理解不了,通过看其他人的debug笔记开始对错误的产生，和hexo对网站的部署有了初步的一些了解。debug笔记如下。</p>
+<span id="more"></span>
+<ol>
+<li></li>
+</ol>
 ]]></content>
       <categories>
         <category>S/W</category>
@@ -52,7 +56,7 @@
     <url>/2022/09/14/hexo_study/</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>S/W</category>
+        <category>Study/Work</category>
       </categories>
       <tags>
         <tag>学习</tag>
@@ -61,7 +65,7 @@
   <entry>
     <title>建站笔记</title>
     <url>/2022/09/14/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p><em>持续更新</em></p>
+    <content><![CDATA[<p>参考：<br>[1]<a href="https://zhuanlan.zhihu.com/p/105584373">https://zhuanlan.zhihu.com/p/105584373</a><br>[2]<a href="https://zhuanlan.zhihu.com/p/105715224">https://zhuanlan.zhihu.com/p/105715224</a><br><em>持续更新</em></p>
 ]]></content>
       <categories>
         <category>Study/Work</category>
@@ -116,9 +120,6 @@
 <li>数学建模南威杯三等奖</li>
 </ul>
 ]]></content>
-      <categories>
-        <category>Study/Work</category>
-      </categories>
       <tags>
         <tag>个人介绍</tag>
       </tags>
