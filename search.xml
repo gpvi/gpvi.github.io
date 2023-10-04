@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Blog 简介</title>
+    <url>/2022/09/14/home/</url>
+    <content><![CDATA[<span id="more"></span>
+
+]]></content>
+      <categories>
+        <category>S/W</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>git学习.md</title>
+    <url>/2023/07/10/git%E5%AD%A6%E4%B9%A0-md/</url>
+    <content><![CDATA[<h3 id="git">git</h3>
+<p><img src="source/_posts/git%E5%AD%A6%E4%B9%A0-md/Pasted%20image%2020230710170124.png" alt=""><br>
+git工作流程</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>粒子群算法 局部网络结构</title>
+    <url>/2023/06/21/%E7%B2%92%E5%AD%90%E7%BE%A4%E7%AE%97%E6%B3%95%20%E5%B1%80%E9%83%A8%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<h3 id="全连接：AD-1">全连接：AD = 1</h3>
+<h3 id="星状：-AD-2-frac-2n">星状： $$AD = 2-\frac 2n$$</h3>
+<p>星型的邻接矩阵特点：<br>
+![[pic/Pasted image 20230623165304.png|200]]</p>
+<p>主元全为0，左侧上次侧除主元部分全为1</p>
+<h3 id="四簇">四簇</h3>
+<h3 id="冯诺依曼网状结构">冯诺依曼网状结构</h3>
+<p>![[pic/Pasted image 20230623163327.png|200]]</p>
+<p>![[Pasted image 20230623163551.png|200]]</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi></mrow><annotation encoding="application/x-tex">I</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span></span></span></span> 为 单位矩阵</p>
+]]></content>
+  </entry>
+</search>
