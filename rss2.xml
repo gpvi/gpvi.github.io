@@ -84,53 +84,5 @@
       
     </item>
     
-    <item>
-      <title>粒子群算法 局部网络结构</title>
-      <link>https://github.com/gpvi/2023/06/21/%E7%B2%92%E5%AD%90%E7%BE%A4%E7%AE%97%E6%B3%95%20%E5%B1%80%E9%83%A8%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</link>
-      <guid>https://github.com/gpvi/2023/06/21/%E7%B2%92%E5%AD%90%E7%BE%A4%E7%AE%97%E6%B3%95%20%E5%B1%80%E9%83%A8%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</guid>
-      <pubDate>Tue, 20 Jun 2023 16:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h3 id=&quot;全连接：AD-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#全连接：AD-1&quot;&gt;¶&lt;/a&gt;全连接：AD = 1&lt;/h3&gt;
-&lt;h3 id=&quot;星状：-AD-2-frac-2n&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#星</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h3 id="全连接：AD-1"><a class="header-anchor" href="#全连接：AD-1">¶</a>全连接：AD = 1</h3><h3 id="星状：-AD-2-frac-2n"><a class="header-anchor" href="#星状：-AD-2-frac-2n">¶</a>星状： $$AD = 2-\frac 2n$$</h3><p>星型的邻接矩阵特点：<br>![[pic/Pasted image 20230623165304.png|200]]</p><p>主元全为0，左侧上次侧除主元部分全为1</p><h3 id="四簇"><a class="header-anchor" href="#四簇">¶</a>四簇</h3><h3 id="冯诺依曼网状结构"><a class="header-anchor" href="#冯诺依曼网状结构">¶</a>冯诺依曼网状结构</h3><p>![[pic/Pasted image 20230623163327.png|200]]</p><p>![[Pasted image 20230623163551.png|200]]</p><p>$I$ 为 单位矩阵</p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>https://github.com/gpvi/2023/06/21/%E7%B2%92%E5%AD%90%E7%BE%A4%E7%AE%97%E6%B3%95%20%E5%B1%80%E9%83%A8%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Blog 简介</title>
-      <link>https://github.com/gpvi/2022/09/14/home/</link>
-      <guid>https://github.com/gpvi/2022/09/14/home/</guid>
-      <pubDate>Wed, 14 Sep 2022 13:41:21 GMT</pubDate>
-      
-        
-        
-      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<span id="more"></span>]]></content:encoded>
-      
-      
-      <category domain="https://github.com/gpvi/categories/S-W/">S/W</category>
-      
-      
-      
-      <comments>https://github.com/gpvi/2022/09/14/home/#disqus_thread</comments>
-      
-    </item>
-    
   </channel>
 </rss>
