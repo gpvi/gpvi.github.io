@@ -9,13 +9,28 @@
     <atom:link href="https://github.com/gpvi/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>计算机探索ing</description>
-    <pubDate>Mon, 23 Oct 2023 06:48:56 GMT</pubDate>
+    <pubDate>Mon, 23 Oct 2023 09:36:27 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title>快排算法</title>
+      <link>https://github.com/gpvi/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/</link>
+      <guid>https://github.com/gpvi/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/</guid>
+      <pubDate>Mon, 23 Oct 2023 09:36:27 GMT</pubDate>
+      
+      
+      
+      
+      
+      
+      <comments>https://github.com/gpvi/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>红黑树.md</title>
-      <link>https://github.com/gpvi/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91-md/</link>
-      <guid>https://github.com/gpvi/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91-md/</guid>
+      <link>https://github.com/gpvi/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/</link>
+      <guid>https://github.com/gpvi/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/</guid>
       <pubDate>Mon, 23 Oct 2023 06:24:15 GMT</pubDate>
       
         
@@ -27,12 +42,16 @@
       
       
       
-      <content:encoded><![CDATA[<h1>红黑树学习</h1><h2 id="红黑树的结构"><a class="header-anchor" href="#红黑树的结构">¶</a>红黑树的结构</h2><h2 id="红黑树的旋转"><a class="header-anchor" href="#红黑树的旋转">¶</a>红黑树的旋转</h2><h2 id="红黑树的插入"><a class="header-anchor" href="#红黑树的插入">¶</a>红黑树的插入</h2><h2 id="红黑树的删除"><a class="header-anchor" href="#红黑树的删除">¶</a>红黑树的删除</h2>]]></content:encoded>
+      <content:encoded><![CDATA[<h1>红黑树学习</h1><h2 id="红黑树的结构"><a class="header-anchor" href="#红黑树的结构">¶</a>红黑树的结构</h2><h2 id="红黑树的旋转"><a class="header-anchor" href="#红黑树的旋转">¶</a>红黑树的旋转</h2><h2 id="红黑树的插入"><a class="header-anchor" href="#红黑树的插入">¶</a>红黑树的插入</h2><h2 id="红黑树的删除"><a class="header-anchor" href="#红黑树的删除">¶</a>红黑树的删除</h2><p><img src="/%E7%BA%A2%E9%BB%91%E6%A0%91/image.png" alt="Alt text"></p>]]></content:encoded>
       
       
+      <category domain="https://github.com/gpvi/categories/CS/">CS</category>
       
       
-      <comments>https://github.com/gpvi/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91-md/#disqus_thread</comments>
+      <category domain="https://github.com/gpvi/tags/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">算法与数据结构</category>
+      
+      
+      <comments>https://github.com/gpvi/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/#disqus_thread</comments>
       
     </item>
     
@@ -53,34 +72,13 @@
       <content:encoded><![CDATA[<h3 id="远程登陆"><a class="header-anchor" href="#远程登陆">¶</a>远程登陆</h3>]]></content:encoded>
       
       
+      <category domain="https://github.com/gpvi/categories/CS/">CS</category>
       
-      <category domain="https://github.com/gpvi/tags/Linux/">Linux</category>
+      
+      <category domain="https://github.com/gpvi/tags/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/">工具学习</category>
       
       
       <comments>https://github.com/gpvi/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>git学习.md</title>
-      <link>https://github.com/gpvi/2023/07/10/git%E5%AD%A6%E4%B9%A0-md/</link>
-      <guid>https://github.com/gpvi/2023/07/10/git%E5%AD%A6%E4%B9%A0-md/</guid>
-      <pubDate>Mon, 10 Jul 2023 09:04:36 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h3 id=&quot;git&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#git&quot;&gt;¶&lt;/a&gt;git&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;source/_posts/git%E5%AD%A6%E4%B9%A0-md/Pasted%20image%202023071</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h3 id="git"><a class="header-anchor" href="#git">¶</a>git</h3><p><img src="source/_posts/git%E5%AD%A6%E4%B9%A0-md/Pasted%20image%2020230710170124.png" alt=""><br>git工作流程</p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>https://github.com/gpvi/2023/07/10/git%E5%AD%A6%E4%B9%A0-md/#disqus_thread</comments>
       
     </item>
     
