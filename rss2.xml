@@ -4,9 +4,9 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Niuzhuoqun&#39;s BLOG</title>
-    <link>https://github.com/gpvi.github.io/</link>
+    <link>https://github.com/</link>
     
-    <atom:link href="https://github.com/gpvi.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://github.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>计算机探索ing</description>
     <pubDate>Mon, 23 Oct 2023 09:36:27 GMT</pubDate>
@@ -14,8 +14,8 @@
     
     <item>
       <title>快排算法</title>
-      <link>https://github.com/gpvi.github.io/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/</link>
-      <guid>https://github.com/gpvi.github.io/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/</guid>
+      <link>https://github.com/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/</link>
+      <guid>https://github.com/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/</guid>
       <pubDate>Mon, 23 Oct 2023 09:36:27 GMT</pubDate>
       
       
@@ -23,14 +23,14 @@
       
       
       
-      <comments>https://github.com/gpvi.github.io/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/#disqus_thread</comments>
+      <comments>https://github.com/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>红黑树.md</title>
-      <link>https://github.com/gpvi.github.io/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/</link>
-      <guid>https://github.com/gpvi.github.io/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/</guid>
+      <link>https://github.com/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/</link>
+      <guid>https://github.com/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/</guid>
       <pubDate>Mon, 23 Oct 2023 06:24:15 GMT</pubDate>
       
         
@@ -45,20 +45,20 @@
       <content:encoded><![CDATA[<h1>红黑树学习</h1><h2 id="红黑树的结构"><a class="header-anchor" href="#红黑树的结构">¶</a>红黑树的结构</h2><h2 id="红黑树的旋转"><a class="header-anchor" href="#红黑树的旋转">¶</a>红黑树的旋转</h2><h2 id="红黑树的插入"><a class="header-anchor" href="#红黑树的插入">¶</a>红黑树的插入</h2><h2 id="红黑树的删除"><a class="header-anchor" href="#红黑树的删除">¶</a>红黑树的删除</h2><p><img src="/%E7%BA%A2%E9%BB%91%E6%A0%91/image.png" alt="Alt text"></p>]]></content:encoded>
       
       
-      <category domain="https://github.com/gpvi.github.io/categories/CS/">CS</category>
+      <category domain="https://github.com/categories/CS/">CS</category>
       
       
-      <category domain="https://github.com/gpvi.github.io/tags/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">算法与数据结构</category>
+      <category domain="https://github.com/tags/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">算法与数据结构</category>
       
       
-      <comments>https://github.com/gpvi.github.io/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/#disqus_thread</comments>
+      <comments>https://github.com/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>root远程登陆ubuntu</title>
-      <link>https://github.com/gpvi.github.io/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/</link>
-      <guid>https://github.com/gpvi.github.io/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/</guid>
+      <link>https://github.com/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/</link>
+      <guid>https://github.com/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/</guid>
       <pubDate>Wed, 04 Oct 2023 14:40:38 GMT</pubDate>
       
         
@@ -72,13 +72,13 @@
       <content:encoded><![CDATA[<h3 id="远程登陆"><a class="header-anchor" href="#远程登陆">¶</a>远程登陆</h3>]]></content:encoded>
       
       
-      <category domain="https://github.com/gpvi.github.io/categories/CS/">CS</category>
+      <category domain="https://github.com/categories/CS/">CS</category>
       
       
-      <category domain="https://github.com/gpvi.github.io/tags/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/">工具学习</category>
+      <category domain="https://github.com/tags/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/">工具学习</category>
       
       
-      <comments>https://github.com/gpvi.github.io/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/#disqus_thread</comments>
+      <comments>https://github.com/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/#disqus_thread</comments>
       
     </item>
     
