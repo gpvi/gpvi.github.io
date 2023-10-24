@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>root远程登陆ubuntu</title>
-    <url>/gpvi.github.io/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/</url>
-    <content><![CDATA[<h3 id="远程登陆"><a class="header-anchor" href="#远程登陆">¶</a>远程登陆</h3>
-]]></content>
-      <categories>
-        <category>CS</category>
-      </categories>
-      <tags>
-        <tag>工具学习</tag>
-      </tags>
+    <title>快排算法</title>
+    <url>/gpvi.github.io/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>红黑树.md</title>
@@ -30,8 +23,15 @@
       </tags>
   </entry>
   <entry>
-    <title>快排算法</title>
-    <url>/gpvi.github.io/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[]]></content>
+    <title>root远程登陆ubuntu</title>
+    <url>/gpvi.github.io/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/</url>
+    <content><![CDATA[<h3 id="远程登陆"><a class="header-anchor" href="#远程登陆">¶</a>远程登陆</h3>
+]]></content>
+      <categories>
+        <category>CS</category>
+      </categories>
+      <tags>
+        <tag>工具学习</tag>
+      </tags>
   </entry>
 </search>
