@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>root远程登陆ubuntu</title>
+    <url>/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/</url>
+    <content><![CDATA[<h3 id="远程登陆"><a class="header-anchor" href="#远程登陆">¶</a>远程登陆</h3>
+]]></content>
+      <categories>
+        <category>CS</category>
+      </categories>
+      <tags>
+        <tag>工具学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>快排算法</title>
+    <url>/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法与数据结构</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>红黑树.md</title>
+    <url>/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/</url>
+    <content><![CDATA[<h1>红黑树学习</h1>
+<h2 id="红黑树的结构"><a class="header-anchor" href="#红黑树的结构">¶</a>红黑树的结构</h2>
+<h2 id="红黑树的旋转"><a class="header-anchor" href="#红黑树的旋转">¶</a>红黑树的旋转</h2>
+<h2 id="红黑树的插入"><a class="header-anchor" href="#红黑树的插入">¶</a>红黑树的插入</h2>
+<h2 id="红黑树的删除"><a class="header-anchor" href="#红黑树的删除">¶</a>红黑树的删除</h2>
+]]></content>
+      <categories>
+        <category>CS</category>
+      </categories>
+      <tags>
+        <tag>算法与数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>现代操作系统笔记</title>
     <url>/2023/10/26/%E7%8E%B0%E4%BB%A3%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h3 id="进程与线程"><a class="header-anchor" href="#进程与线程">¶</a>进程与线程</h3>
@@ -28,46 +68,6 @@
       </categories>
       <tags>
         <tag>操作系统</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>快排算法</title>
-    <url>/2023/10/23/%E5%BF%AB%E6%8E%92%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法与数据结构</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>红黑树.md</title>
-    <url>/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/</url>
-    <content><![CDATA[<h1>红黑树学习</h1>
-<h2 id="红黑树的结构"><a class="header-anchor" href="#红黑树的结构">¶</a>红黑树的结构</h2>
-<h2 id="红黑树的旋转"><a class="header-anchor" href="#红黑树的旋转">¶</a>红黑树的旋转</h2>
-<h2 id="红黑树的插入"><a class="header-anchor" href="#红黑树的插入">¶</a>红黑树的插入</h2>
-<h2 id="红黑树的删除"><a class="header-anchor" href="#红黑树的删除">¶</a>红黑树的删除</h2>
-<img src="/2023/10/23/%E7%BA%A2%E9%BB%91%E6%A0%91/image-20240201114815027.png" class="" title="image-20240201114815027">]]></content>
-      <categories>
-        <category>CS</category>
-      </categories>
-      <tags>
-        <tag>算法与数据结构</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>root远程登陆ubuntu</title>
-    <url>/2023/10/04/root%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86ubuntu/</url>
-    <content><![CDATA[<h3 id="远程登陆"><a class="header-anchor" href="#远程登陆">¶</a>远程登陆</h3>
-]]></content>
-      <categories>
-        <category>CS</category>
-      </categories>
-      <tags>
-        <tag>工具学习</tag>
       </tags>
   </entry>
 </search>
