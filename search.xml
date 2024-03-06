@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>C++中sort的使用</title>
+    <url>/2024/03/06/C-%E4%B8%ADsort%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h1>vector sort 使用笔记</h1>
+<p>#include <iostream><br>
+#include <vector><br>
+#include<algorithm></p>
+<p>using namespace std;</p>
+<p>bool cmp(int x,int y)<br>
+{<br>
+return x &gt;y;<br>
+}<br>
+//sort默认为非降序排序<br>
+int main()<br>
+{<br>
+vector<int>a{2,5,1,4,6};<br>
+//正向排序<br>
+sort(a.begin(),a.end());<br>
+for(auto i:a)<br>
+{<br>
+cout&lt;&lt;i&lt;&lt;&quot; “;<br>
+}<br>
+cout&lt;&lt;endl;<br>
+//反向排序<br>
+sort(a.rbegin(),a.rend());<br>
+for(auto i:a)<br>
+{<br>
+cout&lt;&lt;i&lt;&lt;” &quot;;<br>
+}<br>
+cout&lt;&lt;endl;</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//带cmp参数的排序</span></span><br><span class="line"><span class="built_in">sort</span>(a.<span class="built_in">begin</span>(),a.<span class="built_in">end</span>(),cmp);</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">auto</span> i:a)</span><br><span class="line">&#123;</span><br><span class="line">    cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line">cout&lt;&lt;endl;</span><br><span class="line"></span><br><span class="line"><span class="comment">// lambad</span></span><br><span class="line"><span class="built_in">sort</span>(a.<span class="built_in">begin</span>(),a.<span class="built_in">end</span>(),[](<span class="type">int</span> a, <span class="type">int</span> b)-&gt; <span class="type">bool</span>&#123;</span><br><span class="line"><span class="keyword">return</span> a&gt;b;</span><br><span class="line"><span class="comment">// 正序 return a&lt;b;</span></span><br><span class="line">&#125;);</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">auto</span> i:a)</span><br><span class="line">&#123;</span><br><span class="line">    cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line">cout&lt;&lt;endl;</span><br><span class="line">sort</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>参考链接：<a href="https://blog.csdn.net/weixin_43547900/article/details/121972917">https://blog.csdn.net/weixin_43547900/article/details/121972917</a></p>
+]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>H指数</title>
+    <url>/2024/03/06/H%E6%8C%87%E6%95%B0/</url>
+    <content><![CDATA[<h1>H 指数</h1>
+<p>题目：</p>
+<img src="/2024/03/06/H%E6%8C%87%E6%95%B0/image-20240306103207411.png" class="" title="image-20240306103207411">
+<p>思路：被引论文的引用次数&gt;=h 且 被引论文总数&gt;=h</p>
+]]></content>
+      <categories>
+        <category>算法刷题笔记</category>
+      </categories>
+      <tags>
+        <tag>leecode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CPP实现简单线程池</title>
     <url>/2024/03/03/CPP%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%BA%BF%E7%A8%8B%E6%B1%A0/</url>
     <content><![CDATA[<h2 id="C-简单实现线程池"><a class="header-anchor" href="#C-简单实现线程池">¶</a>C++简单实现线程池</h2>
@@ -85,7 +140,7 @@
 </ul>
 ]]></content>
       <categories>
-        <category>CS</category>
+        <category>读书笔记</category>
       </categories>
       <tags>
         <tag>操作系统</tag>
