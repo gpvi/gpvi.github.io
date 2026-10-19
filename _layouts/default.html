@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'zh-CN' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    {% feed_meta %}
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      <nav aria-label="主导航">
+        <a href="{{ '/' | relative_url }}">首页</a>
+        <a href="{{ '/archives/' | relative_url }}">归档</a>
+        <a href="{{ '/categories/' | relative_url }}">分类</a>
+        <a href="{{ '/tags/' | relative_url }}">标签</a>
+        <a href="{{ '/about/' | relative_url }}">关于</a>
+        <a href="{{ '/resumes/' | relative_url }}">简历</a>
+      </nav>
+    </header>
+    <main class="site-main">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <span>{{ site.author | escape }}</span>
+      <span>由 Jekyll 驱动</span>
+    </footer>
+  </body>
+</html>

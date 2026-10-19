@@ -1,0 +1,16 @@
+---
+layout: page
+title: 文章标签
+permalink: /tags/
+---
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+  <section class="taxonomy" id="{{ tag[0] | slugify }}">
+    <h2>{{ tag[0] | escape }} <span>({{ tag[1].size }})</span></h2>
+    <ul class="link-list">
+      {% for post in tag[1] %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endfor %}

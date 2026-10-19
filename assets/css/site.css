@@ -1,0 +1,184 @@
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: #30343b;
+  background: #f6f7f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 980px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+a {
+  color: #315f9c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #173c70;
+  text-decoration: underline;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px 0;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.site-title {
+  color: #252a31;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.site-main {
+  min-height: 70vh;
+  padding: 32px 0 64px;
+}
+
+.intro {
+  margin-bottom: 28px;
+}
+
+.intro p,
+.article-meta {
+  color: #737b86;
+}
+
+.post-card,
+.article {
+  margin: 0 0 20px;
+  padding: 24px;
+  border: 1px solid #e8eaed;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 16px rgb(25 35 50 / 4%);
+}
+
+.post-card h2,
+.article h1 {
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+
+.article-header {
+  margin-bottom: 28px;
+}
+
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.article-content {
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+}
+
+.article-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 6px;
+}
+
+.article-content pre {
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 8px;
+  background: #f0f2f5;
+}
+
+.article-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.article-content th,
+.article-content td {
+  padding: 8px 12px;
+  border: 1px solid #dfe3e8;
+}
+
+.article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.link-list {
+  padding-left: 20px;
+  line-height: 2;
+}
+
+.link-list time {
+  display: inline-block;
+  width: 64px;
+  color: #737b86;
+  font-variant-numeric: tabular-nums;
+}
+
+.taxonomy,
+.archive-year {
+  margin: 24px 0;
+}
+
+.taxonomy h2 span {
+  color: #737b86;
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 28px;
+  border-top: 1px solid #e1e4e8;
+  color: #737b86;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 0 16px;
+  }
+
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  nav {
+    gap: 10px 16px;
+  }
+
+  .post-card,
+  .article {
+    padding: 18px;
+  }
+}

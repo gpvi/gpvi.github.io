@@ -1,0 +1,27 @@
+title: Niuzhuoqun's Blog
+description: Blog&个人背景介绍
+author: NZQ
+lang: zh-CN
+timezone: Asia/Shanghai
+url: "https://gpvi.github.io"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

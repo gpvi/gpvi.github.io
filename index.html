@@ -1,0 +1,24 @@
+---
+layout: default
+title: 首页
+---
+<section class="intro">
+  <p>{{ site.description }}</p>
+  <h1>最新文章</h1>
+</section>
+<div class="post-list">
+  {% for post in site.posts %}
+    <article class="post-card">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      <p class="article-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+        {% for category in post.categories %}
+          <span>{{ category | escape }}</span>
+        {% endfor %}
+      </p>
+      {% if post.excerpt %}
+        <div class="excerpt">{{ post.excerpt | markdownify | strip_html | truncate: 200 }}</div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

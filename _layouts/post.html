@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="article">
+  <header class="article-header">
+    <h1>{{ page.title | escape }}</h1>
+    <p class="article-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+      {% for category in page.categories %}
+        <a href="{{ '/categories/' | relative_url }}#{{ category | slugify }}">{{ category | escape }}</a>
+      {% endfor %}
+    </p>
+  </header>
+  <div class="article-content">
+    {{ content }}
+  </div>
+  {% if page.tags.size > 0 %}
+    <footer class="article-tags">
+      {% for tag in page.tags %}
+        <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">#{{ tag | escape }}</a>
+      {% endfor %}
+    </footer>
+  {% endif %}
+</article>
